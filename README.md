@@ -9,12 +9,12 @@ It is possible this project might spawn into something project type specific and
 Basic idea/workflow.
 
 1. Create new repo in github then local
-..1. `mkdir <name> && cd $_`
-..2. `git init`
+  1. `mkdir <name> && cd $_`
+  2. `git init`
 2. Pull this repo
-..1. `git remote add origin git@github.com:byronmansfield/bp-repo.git`
-..2. `git pull origin master`
-..3. If you need a specific branch, check that one out `git checkout golang`
+  1. `git remote add origin git@github.com:byronmansfield/bp-repo.git`
+  2. `git pull origin master`
+  3. If you need a specific branch, check that one out `git checkout golang`
 3. Make changes to whatever files you would like (e.g. README.md, .gitignore, etc)
 4. Reassign remote origin `git remote set-url origin git@github.com:USERNAME/OTHERREPOSITORY.git`
 ... Don't forget to double check remote url `git remote -v`
