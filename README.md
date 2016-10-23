@@ -17,7 +17,7 @@ Basic idea/workflow.
   3. If you need a specific branch, check that one out `git checkout golang`
 3. Make changes to whatever files you would like (e.g. README.md, .gitignore, etc)
 4. Reassign remote origin `git remote set-url origin git@github.com:USERNAME/OTHERREPOSITORY.git`
-... Don't forget to double check remote url `git remote -v`
+   Don't forget to double check remote url `git remote -v`
 5. Push your new repository `git push origin master`
 
 Thats basically it. Enjoy.
